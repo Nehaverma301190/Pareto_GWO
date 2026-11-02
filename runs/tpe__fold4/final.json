@@ -1,0 +1,20 @@
+{
+  "method": "tpe",
+  "fold": 4,
+  "selected_cand": 102,
+  "config": {
+    "lr": 0.0008775848418175568,
+    "dropout": 0.23759655718515196,
+    "weight_decay": 2.2414029279263343e-06,
+    "batch_size": 64,
+    "unfrozen_stages": 2,
+    "label_smoothing": 0.0046149818049279565
+  },
+  "final_epochs_run": 9,
+  "final_best_epoch": 0,
+  "final_gpu_sec": 9.494500600034371,
+  "final_peak_mem_gb": 2.115067958831787,
+  "val_f1_loss": 0.06886408295205404,
+  "val_nll": 0.236320504336593,
+  "val_aurc": 0.017584494026389754
+}

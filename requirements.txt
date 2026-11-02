@@ -1,0 +1,9 @@
+# Versions tested with this code. Do not upgrade optuna while jobs are in progress:
+# resuming replays the optimiser, and a different optuna version can change the replay.
+optuna==5.0.0
+h5py==3.16.0
+scikit-learn==1.8.0
+scipy==1.17.1
+matplotlib==3.10.8
+pandas==3.0.2
+numpy==2.4.4

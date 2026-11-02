@@ -1,0 +1,9 @@
+﻿Method,Final val. HV,Evals to 95% of own final HV
+GWO,0.748 ± 0.105,44 ± 34
+NSGA-II,0.765 ± 0.106,60 ± 27
+MOTPE,0.756 ± 0.098,38 ± 23
+Pareto-GWO,0.759 ± 0.102,56 ± 23
+PU-GWO,0.747 ± 0.098,46 ± 25
+R3: rank Û + AURC-weighted leaders,0.744 ± 0.086,46 ± 34
+"PU-GWO, ρ=0 (no feedback)",0.754 ± 0.086,44 ± 19
+"PU-GWO, random Û",0.742 ± 0.101,34 ± 11

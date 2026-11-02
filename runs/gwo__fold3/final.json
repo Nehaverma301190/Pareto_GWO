@@ -1,0 +1,20 @@
+{
+  "method": "gwo",
+  "fold": 3,
+  "selected_cand": 65,
+  "config": {
+    "lr": 0.001,
+    "dropout": 0.3156911378230832,
+    "weight_decay": 2.325523390667696e-06,
+    "batch_size": 64,
+    "unfrozen_stages": 2,
+    "label_smoothing": 0.13253680878970678
+  },
+  "final_epochs_run": 25,
+  "final_best_epoch": 16,
+  "final_gpu_sec": 26.709385199996177,
+  "final_peak_mem_gb": 1.9320592880249023,
+  "val_f1_loss": 0.02406318635167748,
+  "val_nll": 0.1638413471137249,
+  "val_aurc": 0.003959943626734667
+}

@@ -1,0 +1,20 @@
+{
+  "method": "nsga2",
+  "fold": 2,
+  "selected_cand": 78,
+  "config": {
+    "lr": 0.0005808038157033438,
+    "dropout": 0.27679704096091495,
+    "weight_decay": 4.480417961962551e-06,
+    "batch_size": 64,
+    "unfrozen_stages": 4,
+    "label_smoothing": 0.022075631258886896
+  },
+  "final_epochs_run": 19,
+  "final_best_epoch": 10,
+  "final_gpu_sec": 29.484165599977132,
+  "final_peak_mem_gb": 2.928262710571289,
+  "val_f1_loss": 0.0165946770115607,
+  "val_nll": 0.05219723999255008,
+  "val_aurc": 0.00039961862438873323
+}

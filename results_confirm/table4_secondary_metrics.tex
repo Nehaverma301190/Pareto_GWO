@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Secondary image-level and patient-level metrics.}
+\label{tab:table4_secondary_metrics}
+\small
+\begin{tabular}{lccccccc}
+\toprule
+Method & Folds & Accuracy (\%) & Balanced acc. (\%) & Macro-precision (\%) & Macro-recall (\%) & Patient acc. (\%) & Patient Macro-F1 (\%) \\
+\midrule
+ResNet-50 (fixed) & 5 & 92.79 $\pm$ 3.09 & 92.26 $\pm$ 2.71 & 91.96 $\pm$ 3.48 & 92.26 $\pm$ 2.71 & 91.88 $\pm$ 4.59 & 92.00 $\pm$ 4.47 \\
+GWO & 5 & 93.28 $\pm$ 2.93 & 92.13 $\pm$ 3.51 & 92.85 $\pm$ 3.36 & 92.13 $\pm$ 3.51 & 94.02 $\pm$ 4.34 & 93.94 $\pm$ 4.39 \\
+NSGA-II & 5 & 92.98 $\pm$ 2.79 & 92.28 $\pm$ 2.91 & 92.21 $\pm$ 3.23 & 92.28 $\pm$ 2.91 & 94.46 $\pm$ 4.40 & 94.57 $\pm$ 4.39 \\
+MOTPE & 5 & 94.65 $\pm$ 3.17 & 94.12 $\pm$ 3.56 & 94.10 $\pm$ 3.44 & 94.12 $\pm$ 3.56 & 94.88 $\pm$ 4.40 & 95.13 $\pm$ 4.29 \\
+Pareto-GWO & 5 & 94.13 $\pm$ 2.84 & 93.66 $\pm$ 3.02 & 93.50 $\pm$ 3.00 & 93.66 $\pm$ 3.02 & 94.46 $\pm$ 4.40 & 94.49 $\pm$ 4.24 \\
+PU-GWO & 5 & 94.42 $\pm$ 2.91 & 93.44 $\pm$ 3.32 & 94.04 $\pm$ 3.24 & 93.44 $\pm$ 3.32 & 94.02 $\pm$ 5.28 & 93.90 $\pm$ 5.37 \\
+R3: rank $\hat{U}$ + AURC-weighted leaders & 5 & 94.12 $\pm$ 2.92 & 93.85 $\pm$ 2.77 & 93.35 $\pm$ 3.29 & 93.85 $\pm$ 2.77 & 95.74 $\pm$ 4.98 & 95.83 $\pm$ 4.99 \\
+\bottomrule
+\end{tabular}
+\end{table}

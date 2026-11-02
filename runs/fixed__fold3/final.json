@@ -1,0 +1,17 @@
+{
+  "method": "fixed",
+  "fold": 3,
+  "selected_cand": null,
+  "config": {
+    "lr": 0.0001,
+    "dropout": 0.5,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "unfrozen_stages": 4,
+    "label_smoothing": 0.0
+  },
+  "final_epochs_run": 13,
+  "final_best_epoch": 4,
+  "final_gpu_sec": 21.585227600007784,
+  "final_peak_mem_gb": 2.7845921516418457
+}

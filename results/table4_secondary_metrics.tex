@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Secondary image-level and patient-level metrics.}
+\label{tab:table4_secondary_metrics}
+\small
+\begin{tabular}{lccccccc}
+\toprule
+Method & Folds & Accuracy (\%) & Balanced acc. (\%) & Macro-precision (\%) & Macro-recall (\%) & Patient acc. (\%) & Patient Macro-F1 (\%) \\
+\midrule
+ResNet-50 (fixed) & 5 & 93.24 $\pm$ 2.17 & 92.27 $\pm$ 3.00 & 92.36 $\pm$ 2.57 & 92.27 $\pm$ 3.00 & 93.55 $\pm$ 1.57 & 93.64 $\pm$ 1.94 \\
+Random Search & 5 & 94.26 $\pm$ 1.27 & 93.47 $\pm$ 2.53 & 93.84 $\pm$ 1.12 & 93.47 $\pm$ 2.53 & 94.40 $\pm$ 3.61 & 94.32 $\pm$ 3.85 \\
+TPE & 5 & 93.47 $\pm$ 3.03 & 92.71 $\pm$ 3.11 & 93.00 $\pm$ 3.05 & 92.71 $\pm$ 3.11 & 94.01 $\pm$ 3.79 & 94.17 $\pm$ 3.58 \\
+PSO & 5 & 94.32 $\pm$ 1.73 & 93.69 $\pm$ 2.75 & 93.65 $\pm$ 1.75 & 93.69 $\pm$ 2.75 & 93.52 $\pm$ 4.10 & 93.50 $\pm$ 4.25 \\
+GWO & 5 & 93.54 $\pm$ 1.78 & 92.73 $\pm$ 2.59 & 93.17 $\pm$ 1.92 & 92.73 $\pm$ 2.59 & 93.11 $\pm$ 2.88 & 93.08 $\pm$ 3.15 \\
+NSGA-II & 5 & 94.00 $\pm$ 1.53 & 93.04 $\pm$ 2.08 & 93.46 $\pm$ 1.93 & 93.04 $\pm$ 2.08 & 94.41 $\pm$ 2.45 & 94.49 $\pm$ 2.26 \\
+MOTPE & 5 & 92.66 $\pm$ 2.05 & 91.89 $\pm$ 2.48 & 92.04 $\pm$ 3.05 & 91.89 $\pm$ 2.48 & 93.98 $\pm$ 1.86 & 94.07 $\pm$ 1.77 \\
+Pareto-GWO & 5 & 95.20 $\pm$ 2.03 & 94.65 $\pm$ 2.75 & 94.63 $\pm$ 2.31 & 94.65 $\pm$ 2.75 & 96.12 $\pm$ 2.37 & 96.14 $\pm$ 2.54 \\
+PU-GWO & 5 & 94.58 $\pm$ 1.02 & 93.81 $\pm$ 1.38 & 94.04 $\pm$ 1.67 & 93.81 $\pm$ 1.38 & 94.00 $\pm$ 1.77 & 94.19 $\pm$ 1.62 \\
+\bottomrule
+\end{tabular}
+\end{table}

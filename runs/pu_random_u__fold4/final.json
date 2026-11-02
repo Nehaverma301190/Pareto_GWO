@@ -1,0 +1,20 @@
+{
+  "method": "pu_random_u",
+  "fold": 4,
+  "selected_cand": 56,
+  "config": {
+    "lr": 0.0004089278596747318,
+    "dropout": 0.13361098055780565,
+    "weight_decay": 4.420987362585904e-05,
+    "batch_size": 64,
+    "unfrozen_stages": 4,
+    "label_smoothing": 0.05916239869775523
+  },
+  "final_epochs_run": 13,
+  "final_best_epoch": 4,
+  "final_gpu_sec": 20.128592900000513,
+  "final_peak_mem_gb": 2.923746109008789,
+  "val_f1_loss": 0.06206809903280597,
+  "val_nll": 0.17696939127838848,
+  "val_aurc": 0.008747818788674734
+}

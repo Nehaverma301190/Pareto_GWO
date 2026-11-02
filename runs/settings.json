@@ -1,0 +1,38 @@
+{
+  "run_dir": "runs",
+  "cache": "data/figshare_224.npz",
+  "arch": "resnet50",
+  "pretrained": true,
+  "img_size": 224,
+  "n_folds": 5,
+  "split_seed": 2024,
+  "base_seed": 11,
+  "budget": 120,
+  "pop": 10,
+  "promote_k": 3,
+  "s1_epochs": 10,
+  "s1_patience": 3,
+  "s2_epochs": 25,
+  "s2_patience": 5,
+  "final_epochs": 40,
+  "final_patience": 8,
+  "mc_search": 10,
+  "mc_final": 30,
+  "archive_cap": 20,
+  "tau": 1.0,
+  "mu_min": 0.2,
+  "mu_max": 0.8,
+  "eval_batch": 256,
+  "hv_lo": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "hv_hi": [
+    0.25,
+    0.8,
+    0.08
+  ],
+  "hv_ref": 1.1,
+  "device": "cuda"
+}

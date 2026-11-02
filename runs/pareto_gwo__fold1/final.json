@@ -1,0 +1,20 @@
+{
+  "method": "pareto_gwo",
+  "fold": 1,
+  "selected_cand": 68,
+  "config": {
+    "lr": 0.000632428204944078,
+    "dropout": 0.31868421299181315,
+    "weight_decay": 1.4001474221418408e-06,
+    "batch_size": 16,
+    "unfrozen_stages": 2,
+    "label_smoothing": 0.02795058149775934
+  },
+  "final_epochs_run": 19,
+  "final_best_epoch": 10,
+  "final_gpu_sec": 34.013175300031435,
+  "final_peak_mem_gb": 1.9026398658752441,
+  "val_f1_loss": 0.025169678543296325,
+  "val_nll": 0.06432018462080193,
+  "val_aurc": 0.0008253554955377681
+}

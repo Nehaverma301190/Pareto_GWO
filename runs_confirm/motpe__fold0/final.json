@@ -1,0 +1,20 @@
+{
+  "method": "motpe",
+  "fold": 0,
+  "selected_cand": 71,
+  "config": {
+    "lr": 0.0002349271940093646,
+    "dropout": 0.3230776704287047,
+    "weight_decay": 4.840890253166342e-06,
+    "batch_size": 16,
+    "unfrozen_stages": 3,
+    "label_smoothing": 0.007868116289989945
+  },
+  "final_epochs_run": 20,
+  "final_best_epoch": 11,
+  "final_gpu_sec": 42.5291717001237,
+  "final_peak_mem_gb": 2.096409797668457,
+  "val_f1_loss": 0.04688928247766899,
+  "val_nll": 0.117570795580119,
+  "val_aurc": 0.003503328232263925
+}

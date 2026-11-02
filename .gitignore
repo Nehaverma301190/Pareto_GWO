@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Data: download from Figshare (see README) and build the cache with `run.py prepare`
+figshare_dataset/
+data/*.npz
+
+# Smoke-test outputs and transient checkpoints
+runs_smoke/
+results_smoke/
+*.pt
+*.pth

@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\caption{Measured compute per run (mean $\pm$ SD over folds).}
+\label{tab:table9_compute_cost}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Method & Folds & Search GPU-h & Final GPU-h & Epochs trained & Peak mem. (GB) \\
+\midrule
+ResNet-50 (fixed) & 5 & 0.00 $\pm$ 0.00 & 0.01 $\pm$ 0.00 & 17 $\pm$ 3 & 2.8 $\pm$ 0.1 \\
+Random Search & 5 & 0.32 $\pm$ 0.03 & 0.01 $\pm$ 0.00 & 1072 $\pm$ 102 & 2.9 $\pm$ 0.0 \\
+TPE & 5 & 0.29 $\pm$ 0.10 & 0.01 $\pm$ 0.00 & 938 $\pm$ 93 & 2.7 $\pm$ 0.5 \\
+PSO & 5 & 0.31 $\pm$ 0.06 & 0.01 $\pm$ 0.00 & 956 $\pm$ 91 & 2.5 $\pm$ 0.5 \\
+GWO & 5 & 0.34 $\pm$ 0.11 & 0.01 $\pm$ 0.00 & 978 $\pm$ 111 & 3.0 $\pm$ 0.1 \\
+NSGA-II & 5 & 0.31 $\pm$ 0.07 & 0.01 $\pm$ 0.00 & 972 $\pm$ 92 & 3.0 $\pm$ 0.1 \\
+MOTPE & 5 & 0.36 $\pm$ 0.12 & 0.01 $\pm$ 0.01 & 937 $\pm$ 88 & 2.9 $\pm$ 0.4 \\
+Pareto-GWO & 5 & 0.34 $\pm$ 0.11 & 0.01 $\pm$ 0.00 & 976 $\pm$ 127 & 2.4 $\pm$ 0.5 \\
+PU-GWO & 5 & 0.39 $\pm$ 0.16 & 0.01 $\pm$ 0.01 & 979 $\pm$ 107 & 2.6 $\pm$ 0.5 \\
+PU-GWO, $\rho$=0 (no feedback) & 5 & 0.35 $\pm$ 0.10 & 0.01 $\pm$ 0.01 & 982 $\pm$ 97 & 2.4 $\pm$ 0.5 \\
+PU-GWO, random $\hat{U}$ & 5 & 0.30 $\pm$ 0.10 & 0.01 $\pm$ 0.00 & 967 $\pm$ 86 & 2.3 $\pm$ 0.5 \\
+PU-GWO, shuffled $\hat{U}$ & 5 & 0.29 $\pm$ 0.11 & 0.01 $\pm$ 0.00 & 964 $\pm$ 101 & 2.7 $\pm$ 0.4 \\
+PU-GWO, NLL-based $\hat{U}$ & 5 & 0.28 $\pm$ 0.04 & 0.01 $\pm$ 0.00 & 976 $\pm$ 101 & 2.4 $\pm$ 0.5 \\
+PU-GWO, Pareto-rank $\hat{U}$ & 5 & 0.36 $\pm$ 0.12 & 0.01 $\pm$ 0.00 & 968 $\pm$ 94 & 2.8 $\pm$ 0.4 \\
+PU-GWO -- leader weights & 5 & 0.30 $\pm$ 0.04 & 0.01 $\pm$ 0.00 & 985 $\pm$ 83 & 2.4 $\pm$ 0.5 \\
+PU-GWO -- momentum & 5 & 0.31 $\pm$ 0.08 & 0.01 $\pm$ 0.00 & 981 $\pm$ 142 & 2.6 $\pm$ 0.5 \\
+PU-GWO, extended bound & 5 & 0.37 $\pm$ 0.09 & 0.01 $\pm$ 0.00 & 960 $\pm$ 99 & 2.4 $\pm$ 0.5 \\
+\bottomrule
+\end{tabular}
+\end{table}

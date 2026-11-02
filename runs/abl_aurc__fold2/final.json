@@ -1,0 +1,20 @@
+{
+  "method": "abl_aurc",
+  "fold": 2,
+  "selected_cand": 115,
+  "config": {
+    "lr": 0.0009102120328303446,
+    "dropout": 0.5907585610305893,
+    "weight_decay": 1.1965609035104607e-06,
+    "batch_size": 32,
+    "unfrozen_stages": 2,
+    "label_smoothing": 0.05390626119160607
+  },
+  "final_epochs_run": 22,
+  "final_best_epoch": 13,
+  "final_gpu_sec": 26.06670170009602,
+  "final_peak_mem_gb": 1.9138092994689941,
+  "val_f1_loss": 0.013235522434404623,
+  "val_nll": 0.07967487959132703,
+  "val_aurc": 0.0008223837133590305
+}

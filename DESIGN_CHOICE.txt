@@ -1,0 +1,1 @@
+SELECTED pu_r3_both on 2026-10-09 by dev_compare.py (validation only); rule fixed in advance 

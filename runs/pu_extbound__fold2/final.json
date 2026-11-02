@@ -1,0 +1,20 @@
+{
+  "method": "pu_extbound",
+  "fold": 2,
+  "selected_cand": 93,
+  "config": {
+    "lr": 0.00021142617538957089,
+    "dropout": 0.4287969391506067,
+    "weight_decay": 2.2997173271852067e-05,
+    "batch_size": 16,
+    "unfrozen_stages": 4,
+    "label_smoothing": 0.05707092719902192
+  },
+  "final_epochs_run": 17,
+  "final_best_epoch": 8,
+  "final_gpu_sec": 35.8294087999966,
+  "final_peak_mem_gb": 1.9199414253234863,
+  "val_f1_loss": 0.012275770729995084,
+  "val_nll": 0.07398293228498,
+  "val_aurc": 0.0007597179039338818
+}

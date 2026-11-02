@@ -1,0 +1,17 @@
+VALIDATION metrics of the final models, folds [0, 1, 2, 3, 4] (test data not read)
+
+method                                  n  Macro-F1     NLL     AURC   E-AURC  val HV
+Pareto-GWO                              5     95.54   0.113   0.0060   0.0048   0.807
+PU-GWO                                  5     96.11   0.128   0.0083   0.0074   0.800
+PU-GWO, ρ=0 (no feedback)               5     95.44   0.122   0.0118   0.0108   0.804
+R1: rank-based AURC Û                   5     95.33   0.130   0.0105   0.0094   0.780
+R2: AURC-weighted leaders               5     95.37   0.128   0.0108   0.0094   0.796
+R3: rank Û + AURC-weighted leaders      5     95.07   0.133   0.0066   0.0051   0.789
+
+Decision rule (fixed in advance):
+  R1: rank-based AURC Û                  AURC below 0.0083: no; Macro-F1 within 0.5 of rho=0 (95.44): yes
+  R2: AURC-weighted leaders              AURC below 0.0083: no; Macro-F1 within 0.5 of rho=0 (95.44): yes
+  R3: rank Û + AURC-weighted leaders     AURC below 0.0083: yes; Macro-F1 within 0.5 of rho=0 (95.44): yes
+
+SELECTED for confirmation: pu_r3_both  (R3: rank Û + AURC-weighted leaders)
+Freeze this choice now. Do not change it after seeing confirmation results.

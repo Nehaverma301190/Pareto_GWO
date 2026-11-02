@@ -1,0 +1,2 @@
+Fri Oct  9 12:34:45 2026 RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
+Fri Oct  9 12:34:45 2026 RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn
