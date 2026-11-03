@@ -13,3 +13,11 @@ runs_smoke/
 results_smoke/
 *.pt
 *.pth
+
+# Kept locally, not published
+old_backup/
+pugwo_round2/
+results/
+results_confirm/
+runs/
+runs_confirm/

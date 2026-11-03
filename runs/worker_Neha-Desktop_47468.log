@@ -1,3 +1,0 @@
-10-06 13:04:10 worker 47468 on cuda: 100 jobs in scope
-10-06 13:04:10 === start random__fold1
-10-06 13:04:10 [random f1] final retraining with {'lr': 0.00043560971996758587, 'dropout': 0.2580363544861931, 'weight_decay': 6.33804894010831e-06, 'batch_size': 16, 'unfrozen_stages': 3, 'label_smoothing': 0.006369245750181413}
